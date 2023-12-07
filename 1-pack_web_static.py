@@ -19,8 +19,7 @@ def do_pack():
 
         # Generate archive path
         time_format = "%Y%m%d%H%M%S"
-        archive_name =
-        "web_static_{}.tgz".format(datetime.utcnow().strftime(time_format))
+        archive_name = "web_static_{}.tgz".format(datetime.utcnow().strftime(time_format))
         archive_path = "versions/{}".format(archive_name)
 
         # Compress web_static folder
