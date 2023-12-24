@@ -1,5 +1,5 @@
- #!/usr/bin/python3
-"""Starts a Flask web application with more routes n templates"""
+#!/usr/bin/python3
+"""Starts a Flask web application with additional routes and templates"""
 
 from flask import Flask, render_template
 
