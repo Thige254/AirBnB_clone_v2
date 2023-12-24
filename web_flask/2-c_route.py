@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """Starts a Flask web application with three routes"""
 
-
 from flask import Flask, escape
 
 app = Flask(__name__)
